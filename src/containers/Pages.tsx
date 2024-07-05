@@ -26,7 +26,7 @@ const Pages = () => {
       }
     };
     fetchPage();
-  }, [{pageName}.pageName]);
+  }, [pageName]);
 
   return (
     <div className="m-3">
